@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+/* navbar style */
+.navbar {
+  height: 64px;
+}
+.logoStyle {
+  height: 32px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.navStyle {
+  padding-left: 24px;
+  padding-right: 24px;
+  height: 64px;
+}
+.NavContainerPadding {
+  padding: 0 !important;
+}
+
+/* banner style */
+.bannerTextStyle {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.bannerTextPara {
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+.StarthereButton {
+  padding: 8px 120px 8px 120px;
+  width: 100%;
+}
+
+/* mainpage style */
+.mainStyle,
+.bannerImgStyle {
+  padding: 32px 24px 32px 24px;
+}
+.mainImgStyle {
+  padding-bottom: 32px;
+}
+.LeftTextHeader {
+  padding-top: 32px;
+  padding-bottom: 24px;
+  font-size: 2.5rem;
+}
+
+/* right card style */
+.RightCardStyle {
+  width: 100% !important;
+}
+.RightCardContainer {
+  padding: 16px;
+  margin-bottom: 0px !important;
+}
+.ParaGap {
+  padding-bottom: 8px;
+  margin-bottom: 0px !important;
+}
+
+/* card group style */
+.CardGroupHeader {
+  padding: 32px 0;
+}
+.CardGroup {
+  padding-bottom: 0px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 32px !important;
+}
+.BigCardGroup {
+  padding-left: 56px;
+  padding-right: 56px;
+}
+.SecondpageHeader {
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+}
+.SecondpageSubtitle {
+  padding-bottom: 8px;
+}
+.SecondpageCardTextPadding {
+  padding: 16px 16px 24px 16px;
+}
+
+/* thirdpage style */
+.thirdpageContainer1 {
+  padding: 0 24px !important;
+}
+.thirdpageContainer2 {
+  padding: 0;
+}
+.RightCardContainer1 {
+  padding: 16px 16px 16px 0;
+  margin-bottom: 0px !important;
+}
+.ThirdpageParaHeader {
+  padding-top: 24px;
+  padding-bottom: 8px;
+  margin-bottom: 0;
+}
+.ThirdpagePara {
+  padding-bottom: 32px;
+  margin-bottom: 0;
+}
+.FooterFlex {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 24px;
+}
+.HRmargin {
+  margin: 0 !important;
+}
+
+/* alternavtive navbar */
+.NavbarDisplay2 {
+  display: none;
+}
+
+/* media queries */
+@media screen and (max-width: 600px) {
+  .NavbarDisplay1 {
+    display: none !important;
+  }
+  .NavbarDisplay2 {
+    display: block !important;
+  }
+  .NavbarDisplay2 .row .col-3 {
+    margin: 12px 0px;
+    padding: 0px 50px;
+  }
+}
